@@ -10,5 +10,13 @@
 
 \- Learned how to push commits correctly
 
+&nbsp;
 
+&nbsp; Also Learned 
+
+->Terminal ≠ text editor
+
+->Commands ≠ content
+
+->Where code vs documentation lives
 

@@ -12,11 +12,5 @@
 
 &nbsp;
 
-&nbsp; Also Learned 
-
-->Terminal ≠ text editor
-
-->Commands ≠ content
-
-->Where code vs documentation lives
+&nbsp;
 

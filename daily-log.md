@@ -10,7 +10,15 @@
 
 \- Learned how to push commits correctly
 
-&nbsp;
+ 
 
-&nbsp;
+ ## Day 2
+
+\- Improved my Python program
+
+\- Learned how `if` and `else` work
+
+\- Ran and tested the program with different inputs
+
+
 

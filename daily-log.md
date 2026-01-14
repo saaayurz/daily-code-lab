@@ -22,3 +22,13 @@
 
 
 
+## Day 3
+- Took numeric input safely
+- Used validation to prevent errors
+- Refactored code for readability
+- Added logic to calculate years left until eligibility
+
+
+
+
+

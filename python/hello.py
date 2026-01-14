@@ -1,6 +1,11 @@
-name = input("What is your name? ")
+age = input("Enter your age: ")
 
-if name:
-    print("Hello,", name)
+if age.isdigit():
+    age = int(age)
+
+    if age >= 18:
+        print("You are eligible to vote.")
+    else:
+        print("You are not eligible to vote yet.")
 else:
-    print("You did not enter a name.")
+    print("Please enter a valid number.")

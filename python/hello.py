@@ -8,4 +8,6 @@ else:
     if age >= 18:
         print("You are eligible to vote.")
     else:
+        years_left = 18 - age
         print("You are not eligible to vote yet.")
+        print("You can vote in", years_left, "years.")

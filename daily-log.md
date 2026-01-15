@@ -29,6 +29,11 @@
 - Added logic to calculate years left until eligibility
 
 
+## Day 4
+- Focused on code readability instead of new features
+- Added comments to explain program logic
+- Practiced maintaining clarity and consistency on a light day
+
 
 
 

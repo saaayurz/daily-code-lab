@@ -1,43 +1,27 @@
-\# Daily Code Log
+# Daily Code Log
 
+## Day 1
+- Set up Git and GitHub
+- Created my first Python program
+- Learned how to commit and push code correctly
 
-
-\## Day 1
-
-\- Set up Git and GitHub
-
-\- Created first Python program
-
-\- Learned how to push commits correctly
-
- 
-
- ## Day 2
-
-\- Improved my Python program
-
-\- Learned how `if` and `else` work
-
-\- Ran and tested the program with different inputs
-
-
+## Day 2
+- Improved an existing Python program
+- Learned how `if` and `else` control program flow
+- Ran and tested the program with different inputs
 
 ## Day 3
-- Took numeric input safely
-- Used validation to prevent errors
-- Refactored code for readability
+- Took numeric input safely from the user
+- Validated input to prevent errors
+- Refactored code for better readability
 - Added logic to calculate years left until eligibility
-
 
 ## Day 4
 - Focused on code readability instead of new features
 - Added comments to explain program logic
 - Practiced maintaining clarity and consistency on a light day
 
-
-
 ## Day 5
 - Learned what functions are and why they are useful
 - Wrapped existing logic into a function
-- Improved code structure without adding complexity
-
+- Improved overall code structure without adding complexity

@@ -36,4 +36,8 @@
 
 
 
+## Day 5
+- Learned what functions are and why they are useful
+- Wrapped existing logic into a function
+- Improved code structure without adding complexity
 

@@ -25,3 +25,10 @@
 - Learned what functions are and why they are useful
 - Wrapped existing logic into a function
 - Improved overall code structure without adding complexity
+
+## Day 6
+- Reviewed and deeply understood existing code structure
+- Refactored the age program into a life stage analyzer
+- Learned how `elif` works for multiple conditions
+- Practiced separating input, logic, and output properly
+- Focused on understanding code instead of rushing features

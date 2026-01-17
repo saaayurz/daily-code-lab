@@ -1,59 +1,65 @@
-def get_valid_age():
+def get_user_age():
     """
-    Ask the user for their age.
-    Return an integer if valid.
-    Return None if invalid.
+    Prompt the user for their age.
+    Returns an integer if valid, otherwise None.
     """
     user_input = input("Enter your age: ")
 
-    # Check if input contains only digits
     if not user_input.isdigit():
         return None
 
     age = int(user_input)
 
-    # Age should not be negative or unrealistically high
     if age < 0 or age > 120:
         return None
 
     return age
 
-def analyze_voting_eligibility(age):
+
+def analyze_life_stage(age):
     """
-    Analyze voting eligibility.
-    Returns a dictionary with detailed results.
+    Determine life stage based on age.
+    Returns a dictionary with results.
     """
     result = {
         "age": age,
-        "eligible": False,
-        "years_left": 0
+        "stage": "",
+        "message": ""
     }
 
-    if age >= 18:
-        result["eligible"] = True
+    if age < 13:
+        result["stage"] = "Child"
+        result["message"] = "You are in your childhood years."
+    elif age < 18:
+        result["stage"] = "Teenager"
+        result["message"] = "You are a teenager, a phase of learning and growth."
+    elif age < 30:
+        result["stage"] = "Young Adult"
+        result["message"] = "You are a young adult, building your future."
+    elif age < 60:
+        result["stage"] = "Adult"
+        result["message"] = "You are an adult with experience and responsibility."
     else:
-        result["years_left"] = 18 - age
+        result["stage"] = "Senior"
+        result["message"] = "You are a senior, rich with life experience."
 
     return result
 
-def display_result(analysis):
-    """
-    Display voting eligibility result in a friendly format.
-    """
-    if analysis["eligible"]:
-        print(f"You are eligible to vote at age {analysis['age']}.")
-    else:
-        print(f"You are not eligible to vote at age {analysis['age']}.")
-        print(f"You can vote in {analysis['years_left']} years.")
+
+def display_result(result):
+    print(f"Age: {result['age']}")
+    print(f"Life Stage: {result['stage']}")
+    print(result["message"])
+
 
 def main():
     while True:
-        age = get_valid_age()
+        age = get_user_age()
 
         if age is None:
-            print("Invalid age. Please enter a valid number between 0 and 120.")
+            print("Invalid input. Please enter an age between 0 and 120.")
         else:
-            analysis = analyze_voting_eligibility(age)
+            analysis = analyze_life_stage(age)
             display_result(analysis)
 
         choice = input("Do you want to check another age? (y/n): ").lower()

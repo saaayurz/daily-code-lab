@@ -32,3 +32,8 @@
 - Learned how `elif` works for multiple conditions
 - Practiced separating input, logic, and output properly
 - Focused on understanding code instead of rushing features
+
+## Day 7
+- Very low-energy day
+- Only maintained consistency
+- Chose rest over forcing code

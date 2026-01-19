@@ -37,3 +37,8 @@
 - Very low-energy day
 - Only maintained consistency
 - Chose rest over forcing code
+
+## Day 8
+- Built a rock–paper–scissors mini game
+- Learned to use random choices and game logic
+- Focused on keeping coding fun and interactive

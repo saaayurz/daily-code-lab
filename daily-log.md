@@ -42,3 +42,8 @@
 - Built a rock–paper–scissors mini game
 - Learned to use random choices and game logic
 - Focused on keeping coding fun and interactive
+
+## Day 9
+- Very light day
+- Added small clarity improvement to existing mini game
+- Focused on consistency over complexity

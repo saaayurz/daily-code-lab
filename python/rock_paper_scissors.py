@@ -1,3 +1,6 @@
+# Simple rock-paper-scissors game to practice basic game logic
+
+
 import random
 
 def play_game():

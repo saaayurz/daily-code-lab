@@ -47,3 +47,8 @@
 - Very light day
 - Added small clarity improvement to existing mini game
 - Focused on consistency over complexity
+
+## Day 10
+- Built a simple dice rolling mini game
+- Practiced using random numbers and loops
+- Focused on keeping learning fun and lightweight

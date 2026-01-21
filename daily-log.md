@@ -52,3 +52,5 @@
 - Built a simple dice rolling mini game
 - Practiced using random numbers and loops
 - Focused on keeping learning fun and lightweight
+- Started building **OpenVerse**, a long-term web platform project
+- Initialized a new repository with professional structure and documentation

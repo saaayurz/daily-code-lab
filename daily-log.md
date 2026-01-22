@@ -54,3 +54,9 @@
 - Focused on keeping learning fun and lightweight
 - Started building **OpenVerse**, a long-term web platform project
 - Initialized a new repository with professional structure and documentation
+
+## Day 11
+- Light upgrade to dice game
+- Added a score counter to track rolls
+- Focused on small improvements and consistency
+

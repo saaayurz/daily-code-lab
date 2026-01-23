@@ -60,3 +60,8 @@
 - Added a score counter to track rolls
 - Focused on small improvements and consistency
 
+## Day 12
+- Built a simple text-based adventure game
+- Practiced branching logic with user choices
+- Focused on creativity and keeping coding fun
+

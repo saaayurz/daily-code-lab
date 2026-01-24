@@ -65,3 +65,8 @@
 - Practiced branching logic with user choices
 - Focused on creativity and keeping coding fun
 
+## Day 13
+- Upgraded text adventure with a play-again loop
+- Learned to control program flow using a main loop
+- Focused on small, user-friendly improvements
+

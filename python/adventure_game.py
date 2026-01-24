@@ -29,4 +29,14 @@ def start_game():
     else:
         print("Unable to decide, you stay where you are.")
 
-start_game()
+
+def main():
+    while True:
+        start_game()
+        again = input("\nPlay again? (y/n): ").lower()
+        if again != "y":
+            print("Thanks for playing! 👋")
+            break
+
+
+main()

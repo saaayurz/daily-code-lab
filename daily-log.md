@@ -70,3 +70,7 @@
 - Learned to control program flow using a main loop
 - Focused on small, user-friendly improvements
 
+## Day 14
+- Not feeling well today
+- Kept the habit alive with a very light check-in
+- Prioritized health and rest

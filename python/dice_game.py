@@ -1,3 +1,5 @@
+# Dice game with a simple roll counter (light update on a rest day)
+
 import random
 
 def roll_dice():

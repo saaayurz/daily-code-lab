@@ -80,3 +80,7 @@
 - Made a very small, safe code change
 - Focused on consistency and rest
 
+## Day 16
+- Slowly getting back after being unwell
+- Made a small improvement to the word counter utility
+- Added line counting to extend text analysis

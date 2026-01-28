@@ -84,3 +84,9 @@
 - Slowly getting back after being unwell
 - Made a small improvement to the word counter utility
 - Added line counting to extend text analysis
+
+## Day 17
+- Very light day
+- Improved code readability with comments
+- Focused on consistency and recovery
+

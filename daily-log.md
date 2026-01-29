@@ -90,3 +90,8 @@
 - Improved code readability with comments
 - Focused on consistency and recovery
 
+## Day 18
+- Built a menu-driven student score tracker
+- Used dictionaries to store and manage data
+- Implemented validation and statistics (average, max, min)
+- Extended functionality to update existing records

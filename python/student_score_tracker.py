@@ -5,6 +5,7 @@ def show_menu():
     print("3. View statistics")
     print("4. Exit")
 
+
 def add_student(scores):
     name = input("Enter student name: ").strip()
     score_input = input("Enter score (0–100): ")
@@ -20,8 +21,7 @@ def add_student(scores):
         return
 
     scores[name] = score
-   print(f"Score saved/updated for {name}.")
-
+    print(f"Score saved/updated for {name}.")
 
 
 def view_scores(scores):
@@ -68,4 +68,5 @@ def main():
             print("Invalid option. Please choose 1–4.")
 
 
+# ✅ THIS LINE IS CRITICAL
 main()

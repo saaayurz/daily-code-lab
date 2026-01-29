@@ -1,10 +1,9 @@
 def show_menu():
     print("\n📘 Student Score Tracker")
-    print("1. Add student score")
+    print("1. Add or update student score")
     print("2. View all scores")
     print("3. View statistics")
     print("4. Exit")
-
 
 def add_student(scores):
     name = input("Enter student name: ").strip()
@@ -21,7 +20,8 @@ def add_student(scores):
         return
 
     scores[name] = score
-    print(f"Score saved for {name}.")
+   print(f"Score saved/updated for {name}.")
+
 
 
 def view_scores(scores):

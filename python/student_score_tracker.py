@@ -1,3 +1,7 @@
+# Student Score Tracker
+# Allows adding, viewing, and analyzing student scores
+# Built as a menu-driven console program
+
 def show_menu():
     print("\n📘 Student Score Tracker")
     print("1. Add or update student score")

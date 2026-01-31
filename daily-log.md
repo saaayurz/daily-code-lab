@@ -101,3 +101,7 @@
 - Added documentation comments to existing project
 - Focused on clarity and consolidation
 
+## Day 20
+- Upgraded student score tracker to persist data using files
+- Learned basic file reading and writing in Python
+- Built a program that retains data across runs

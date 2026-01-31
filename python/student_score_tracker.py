@@ -1,6 +1,27 @@
-# Student Score Tracker
-# Allows adding, viewing, and analyzing student scores
-# Built as a menu-driven console program
+import os
+
+DATA_FILE = "scores.txt"
+
+
+def load_scores():
+    scores = {}
+
+    if not os.path.exists(DATA_FILE):
+        return scores
+
+    with open(DATA_FILE, "r") as file:
+        for line in file:
+            name, score = line.strip().split(",")
+            scores[name] = int(score)
+
+    return scores
+
+
+def save_scores(scores):
+    with open(DATA_FILE, "w") as file:
+        for name, score in scores.items():
+            file.write(f"{name},{score}\n")
+
 
 def show_menu():
     print("\n📘 Student Score Tracker")
@@ -25,6 +46,7 @@ def add_student(scores):
         return
 
     scores[name] = score
+    save_scores(scores)
     print(f"Score saved/updated for {name}.")
 
 
@@ -53,7 +75,7 @@ def view_statistics(scores):
 
 
 def main():
-    scores = {}
+    scores = load_scores()
 
     while True:
         show_menu()
@@ -72,5 +94,4 @@ def main():
             print("Invalid option. Please choose 1–4.")
 
 
-# ✅ THIS LINE IS CRITICAL
 main()

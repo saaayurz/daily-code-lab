@@ -105,3 +105,8 @@
 - Upgraded student score tracker to persist data using files
 - Learned basic file reading and writing in Python
 - Built a program that retains data across runs
+
+## Day 21
+- Very light day
+- Added a small clarification comment to the student score tracker
+- Focused on consolidation and consistency

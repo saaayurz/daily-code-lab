@@ -1,5 +1,5 @@
 import os
-
+# File used to store student scores between runs
 DATA_FILE = "scores.txt"
 
 

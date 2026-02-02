@@ -69,7 +69,7 @@ def view_statistics(scores):
     average = sum(values) / len(values)
 
     print("\n📊 Statistics")
-    print("Average score:", round(average, 2))
+    print("Average score:", f"{average:.2f}")
     print("Highest score:", max(values))
     print("Lowest score:", min(values))
 

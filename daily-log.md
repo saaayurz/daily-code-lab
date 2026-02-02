@@ -110,3 +110,7 @@
 - Very light day
 - Added a small clarification comment to the student score tracker
 - Focused on consolidation and consistency
+
+## Day 22
+- Made a small formatting improvement to statistics output
+- Continued refining the student score tracker

@@ -114,3 +114,8 @@
 ## Day 22
 - Made a small formatting improvement to statistics output
 - Continued refining the student score tracker
+
+## Day 23
+- Added CSV export functionality to the student score tracker
+- Learned how to write structured data to a standard file format
+- Continued extending the project with practical features

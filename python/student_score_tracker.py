@@ -1,6 +1,8 @@
 import os
+
 # File used to store student scores between runs
 DATA_FILE = "scores.txt"
+CSV_FILE = "scores.csv"
 
 
 def load_scores():
@@ -23,12 +25,26 @@ def save_scores(scores):
             file.write(f"{name},{score}\n")
 
 
+def export_to_csv(scores):
+    if not scores:
+        print("No data to export.")
+        return
+
+    with open(CSV_FILE, "w") as file:
+        file.write("name,score\n")
+        for name, score in scores.items():
+            file.write(f"{name},{score}\n")
+
+    print(f"Scores exported to {CSV_FILE}.")
+
+
 def show_menu():
     print("\n📘 Student Score Tracker")
     print("1. Add or update student score")
     print("2. View all scores")
     print("3. View statistics")
-    print("4. Exit")
+    print("4. Export scores to CSV")
+    print("5. Exit")
 
 
 def add_student(scores):
@@ -79,7 +95,7 @@ def main():
 
     while True:
         show_menu()
-        choice = input("Choose an option (1–4): ")
+        choice = input("Choose an option (1–5): ")
 
         if choice == "1":
             add_student(scores)
@@ -88,10 +104,12 @@ def main():
         elif choice == "3":
             view_statistics(scores)
         elif choice == "4":
+            export_to_csv(scores)
+        elif choice == "5":
             print("Exiting program. Goodbye!")
             break
         else:
-            print("Invalid option. Please choose 1–4.")
+            print("Invalid option. Please choose 1–5.")
 
 
 main()

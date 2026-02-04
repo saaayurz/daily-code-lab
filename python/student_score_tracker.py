@@ -6,6 +6,8 @@ CSV_FILE = "scores.csv"
 
 
 def load_scores():
+	print(f"Loaded {len(scores)} student record(s).")
+
     scores = {}
 
     if not os.path.exists(DATA_FILE):
